@@ -1,0 +1,3 @@
+Persons Name is: Steve Smith
+Persons java Code is: ExeptionsTestingLab204.Person@3b6eb2ec
+Person age is: 12
