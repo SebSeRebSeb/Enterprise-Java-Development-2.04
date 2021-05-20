@@ -6,9 +6,13 @@ public class Person {
     private int id;
     private String name;
     private int age;
-    private String occupation;
+    private Occupation occupation;
 
-    public Person(int id, String name, int age, String occupation) {
+    public Person (){
+
+    }
+
+    public Person(int id, String name, int age, Occupation occupation) {
         this.id = id;
         this.name = name;
         try {
@@ -53,7 +57,7 @@ public class Person {
         return id;
     }
 
-    public String getOccupation() {
-        return occupation;
+    public Occupation getOccupation() {
+        return this.occupation;
     }
 }

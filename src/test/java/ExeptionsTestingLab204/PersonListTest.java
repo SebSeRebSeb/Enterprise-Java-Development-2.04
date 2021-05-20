@@ -12,8 +12,8 @@ class PersonListTest {
     void personListTest() {
         List testList = new ArrayList();
         PersonList testListClass = new PersonList(testList);
-        Person testPerson1 = new Person(1223, "Diego", 123, "Rentner");
-        Person testPerson2 = new Person(1253, "Karlson Waldez", 35, "Gärtner");
+        Person testPerson1 = new Person(1223, "Diego", 123, Occupation.Sales);
+        Person testPerson2 = new Person(1253, "Karlson Waldez", 35, Occupation.Sales);
         testListClass.addToList(testPerson1);
         testListClass.addToList(testPerson2);
 

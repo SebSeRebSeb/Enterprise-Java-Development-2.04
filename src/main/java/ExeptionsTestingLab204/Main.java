@@ -7,20 +7,23 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Person steve = new Person(0011, "Steve Smith", 12, "Worker");
-        Person steve1 = new Person(0011, "Steve Sam", 10, "Worker");
-        Person steve2 = new Person(0011, "Steve Karl", 50, "Worker");
-        Person steve3 = new Person(0011, "StevenSmith", 55, "Worker");
+        Person steve = new Person(0011, "Steve Smith", 12, Occupation.Worker);
+        Person steve1 = new Person(0011, "Steve Sam", 10, Occupation.Sales);
+        Person steve2 = new Person(0011, "Steve Karl", 50, Occupation.Driver);
+        Person steve3 = new Person(0011, "StevenSmith", 55, Occupation.Doctor);
 
         List personList = new ArrayList();
 
         PersonList list1 = new PersonList(personList);
 
-        list1.addToList(steve);
-        System.out.println(personList.size());
-        list1.addToList(steve3);
-        System.out.println(personList.size());
-        writeFile(steve);
+        System.out.println(steve.getOccupation().getSalary());
+        System.out.println(steve.getAge());
+
+//        list1.addToList(steve);
+//        System.out.println(personList.size());
+//        list1.addToList(steve3);
+//        System.out.println(personList.size());
+//        writeFile(steve);
     }
 
     public static void writeFile(Person a) {
