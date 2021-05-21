@@ -1,7 +1,7 @@
 Perfekt!
 Hinweis:
 
-*Enums immer gross schreiben.
+* Enums immer gross schreiben.
 
  ```java
 
