@@ -19,11 +19,6 @@ public class Main {
         System.out.println(steve.getOccupation().getSalary());
         System.out.println(steve.getAge());
 
-//        list1.addToList(steve);
-//        System.out.println(personList.size());
-//        list1.addToList(steve3);
-//        System.out.println(personList.size());
-//        writeFile(steve);
     }
 
     public static void writeFile(Person a) {
